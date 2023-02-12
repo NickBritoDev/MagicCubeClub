@@ -1,0 +1,75 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.wraper-login {
+    display: flex;
+    width: 90vmin;
+    box-shadow: 6px 4px 4px 0px rgb(145, 144, 144);
+    margin: 50% auto;
+    border-radius: 12px;
+}
+
+.container-background{
+    width: 34%;
+    border-radius: 12px;
+}
+
+.background-login-img{
+width: 100%;
+border-radius: 12px;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -20px auto 0 auto;
+}
+
+.container-form .form-group{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.container-form p{
+    margin-top: 10px;
+}
+
+.container-form h2{
+    margin: 5px 0 15px 0;
+}
+
+.container-form input{
+    margin: 5px 0;
+    padding: 6px 12px;
+    outline: none;
+    border: #c8c3d4 solid 1px;
+    border-radius: 6px;
+}
+
+.container-form button{
+    background-color: #966cf1;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 45px;
+    cursor: pointer;
+    width: 100%;
+}

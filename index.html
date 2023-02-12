@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Images/FAVICON.png" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="./Login/Style/LoginStyle.css">
+    <!-- api email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">(function () {emailjs.init("cj3uFcdBMZFwfhzPW");})();</script>
+    <!-- login js  -->
+    <script src="./Login/Javascript/Login.js" defer></script>
+    <title>Magic Cube Club</title>
+</head>
+
+<body>
+    <div class="wraper-login">
+
+        <div class="container-background">
+            <img class="background-login-img" src="./Images/BackgroundLogin.jpg"
+                alt="Background tela de login (pessoa jogando um cubo para cima)">
+        </div>
+
+        <div class="container-form">
+            <p>Welcome Magic Cube Club</p>
+            <h2>Login to your account</h2>
+
+            <div class="form-group">
+                <p>Name</p>
+                <input type="text" id="userName">
+            </div>
+
+            <div class="form-group">
+                <p>E-mail</p>
+                <input type="email" id="userEmail">
+            </div>
+
+            <!-- <input type="radio" id="userRemember"> <span>Remeber Account</span> -->
+
+            <button onclick="sendEmail()" >Login</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

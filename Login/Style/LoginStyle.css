@@ -15,6 +15,7 @@ body{
 
 
 .wraper-login {
+    background-color: #fafafa;
     display: flex;
     width: 90vmin;
     box-shadow: 6px 4px 4px 0px rgb(145, 144, 144);
@@ -63,7 +64,7 @@ border-radius: 12px;
     border-radius: 6px;
 }
 
-.container-form button{
+.container-form button, .alert-send-email button{
     background-color: #966cf1;
     padding: 10px 30px;
     color: #fff;
@@ -72,4 +73,25 @@ border-radius: 12px;
     margin-top: 45px;
     cursor: pointer;
     width: 100%;
+}
+
+.alert-send-email{
+    background-color: #fafafa;
+    width: 80vmin;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 4px 4px 0px rgb(145, 144, 144);
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.alert-send-email h1{
+    margin: 10px auto;
+}
+
+.alert-send-email svg{
+    margin-top: 35px;
+    color: rgba(60, 223, 60, 0.493);
 }
